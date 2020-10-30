@@ -73,5 +73,9 @@ img.image-style {
   margin-left: auto;
   margin-right: auto;
   padding-top: 1em;
-  float: left;
+}
+.link {
+  text-align: right;
+  color: #cc0000;
+  font-size: 1.5em;
 }
