@@ -2,7 +2,7 @@ p {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1.2em;
 }
-h1 {
+h1.style {
   font-family: "trebuchet MS", Helvetica, sans-serif;
   font-size: 2em;
   text-align: center;
@@ -37,4 +37,25 @@ h2.spacing {
   font-family: Helvetica, sans-serif;
   font-style: italic;
   font-weight: 900;
+}
+p#firstID {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  color: darkblue;
+}
+h2#secondID {
+  font-size: 2em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: blueviolet;
+  border: 5px dashed darkgoldenrod;
+  text-align: center;
+  font-style: initial;
+  margin: 0 5em 0 5em;
+}
+div#main {
+  font-size: 1.1em;
+  margin: 1em 3em 0.2em 3em;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1em 2em 1em 2em;
+  text-align: center;
 }
