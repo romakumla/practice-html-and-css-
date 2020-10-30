@@ -1,3 +1,18 @@
+div#main {
+  font-size: 1.1em;
+  margin: 1em 3em 0.2em 3em;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1em 2em 1em 2em;
+  text-align: center;
+  display: block;
+  border: 1px solid black;
+  display: inline-block;
+}
+div#bar {
+  background-color: cadetblue;
+  text-align: center;
+  padding-bottom: 1em;
+}
 p {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1.2em;
@@ -52,10 +67,11 @@ h2#secondID {
   font-style: initial;
   margin: 0 5em 0 5em;
 }
-div#main {
-  font-size: 1.1em;
-  margin: 1em 3em 0.2em 3em;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 1em 2em 1em 2em;
-  text-align: center;
+
+img.image-style {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1em;
+  float: left;
 }
