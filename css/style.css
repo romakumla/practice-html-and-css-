@@ -70,9 +70,9 @@ h2#secondID {
 
 img.image-style {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   padding-top: 1em;
+  padding-bottom: 2em;
 }
 .link {
   text-align: right;
@@ -81,4 +81,19 @@ img.image-style {
 }
 ul {
   list-style-type: inside;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 1em;
+  width: 50%;
+  padding-bottom: 2em;
+  margin: auto;
+}
+th,
+td {
+  text-align: center;
+  border: 1px solid black;
+  padding: 0.25em;
+  text-align: left;
+  background-color: lightgray;
 }
