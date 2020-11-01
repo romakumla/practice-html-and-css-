@@ -79,13 +79,23 @@
       </tr>
     </tr>
   </table>
-
+  
 <form action="send-email.php" method="post">
 Enter the surname<br>
 <input type="text" name="surname" size="25" maxlength="40">
-Message <br>
+Message <br><br>
+<input type="radio" name="found-thru" value="Google" checked="checked"> Google
+<input type="radio" name="found-thru" value="Review"> Review
+<input type="radio" name="found-thru" value="Friend"> Friends
+<br><br>
+How would you discribe oyur site?
+<br><br>
+<input type="checkbox" name="feedback" value="Wonderful" checked="checked"> Wonderful
+<input type="checkbox" name="feedback" value="Fabelous"> Fabelous
+<input type="checkbox" name="feedback" value="Brilliant"> Brilliant
+<br><br>
 <textarea name="message" rows="4" cols="30"></textarea>
-<br>
+<br><br>
 <input type="submit" value="send email message">
 </form>
 
