@@ -97,3 +97,22 @@ td {
   text-align: left;
   background-color: lightgray;
 }
+form {
+  width: 50%;
+  margin: 0 auto 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+}
+input[type="text"],
+input[type="Email"],
+textarea {
+  margin-bottom: 0.25em;
+  padding: 0.25em;
+  font-size: 0.8em;
+}
+input[type="submit"] {
+  font-size: 1.25em;
+}
+legend {
+  font-weight: 700;
+}
